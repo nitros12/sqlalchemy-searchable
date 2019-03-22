@@ -36,7 +36,7 @@ class SearchQueryMixin(object):
 
 def inspect_search_vectors(entity):
     return [
-        getattr(entity, key).property.columns[0]
+        column
         for key, column
         in sa.inspect(entity).columns.items()
         if isinstance(column.type, TSVectorType)
@@ -56,7 +56,7 @@ def search(query, search_query, vector=None, regconfig=None, sort=False):
         return query
 
     if vector is None:
-        entity = query._entities[0].entity_zero.class_
+        entity = query.selectable.locate_all_froms()[0]
         search_vectors = inspect_search_vectors(entity)
         vector = search_vectors[0]
 
