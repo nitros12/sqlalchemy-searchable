@@ -9,7 +9,7 @@ from sqlalchemy_utils import TSVectorType
 
 from .vectorizers import Vectorizer
 
-__version__ = '1.1.0'
+__version__ = '1.1.1'
 
 
 vectorizer = Vectorizer()
@@ -52,18 +52,20 @@ def search(query, search_query, vector=None, regconfig=None, sort=False):
     :param regconfig: postgresql regconfig to be used
     :param sort: order results by relevance (quality of hit)
     """
+    query = query.selectable
+
     if not search_query.strip():
         return query
 
     if vector is None:
-        entity = query.selectable.locate_all_froms()[0]
+        entity = query.locate_all_froms()[0]
         search_vectors = inspect_search_vectors(entity)
         vector = search_vectors[0]
 
     if regconfig is None:
         regconfig = search_manager.options['regconfig']
 
-    query = query.filter(
+    query = query.where(
         vector.op('@@')(sa.func.tsq_parse(regconfig, search_query))
     )
     if sort:
