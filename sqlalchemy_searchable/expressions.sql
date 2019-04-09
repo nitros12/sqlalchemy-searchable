@@ -204,9 +204,7 @@ RETURNS ANYARRAY AS $$
             WHEN $3 > 0 THEN
                 (array_positions($1, $2))[1:$3]
             WHEN $3 < 0 THEN
-                (array_positions($1, $2))[
-                    (cardinality(array_positions($1, $2)) + $3 + 1):
-                ]
+                (array_positions($1, $2))[(cardinality(array_positions($1, $2)) + $3 + 1):cardinality(array_positions($1, $2))]
             ELSE
                 '{}'::int[]
             END
