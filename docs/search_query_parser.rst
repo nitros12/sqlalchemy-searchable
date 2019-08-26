@@ -1,7 +1,7 @@
 Search query parser
 ===================
 
-As of version 1.0 SQLAlchemy-Searchable comes with native PostgreSQL search query parser. The search query parser is capable of parsing human readable search queries into PostgreSQL search query syntax.
+As of version 1.0 sqlalchemy_searchable comes with native PostgreSQL search query parser. The search query parser is capable of parsing human readable search queries into PostgreSQL search query syntax.
 
 
 AND operator
@@ -32,7 +32,7 @@ Searching for articles containing 'star' or 'wars'
 Negation operator
 -----------------
 
-SQLAlchemy-Searchable search query parser supports negation operator. By default the negation operator is '-'.
+sqlalchemy_searchable search query parser supports negation operator. By default the negation operator is '-'.
 
 Example: Searching for article containing 'star' but not 'wars'
 
@@ -57,7 +57,7 @@ Parenthesis
 Phrase searching
 ----------------
 
-SQLAlchemy-Searchable supports phrase searches. Just add the keywords in double quotes.::
+sqlalchemy_searchable supports phrase searches. Just add the keywords in double quotes.::
 
 
 query = search(query, '"star wars"')

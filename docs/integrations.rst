@@ -1,7 +1,7 @@
 Flask-SQLAlchemy integration
 ----------------------------
 
-SQLAlchemy-Searchable can be neatly integrated into Flask-SQLAlchemy using SearchQueryMixin class.
+sqlalchemy_searchable can be neatly integrated into Flask-SQLAlchemy using SearchQueryMixin class.
 
 
 Example ::

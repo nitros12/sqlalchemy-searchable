@@ -1,8 +1,8 @@
-SQLAlchemy-Searchable
+sqlalchemy_searchable
 =====================
 
 
-SQLAlchemy-Searchable provides `full text search`_ capabilities for SQLAlchemy_ models. Currently it only supports PostgreSQL_.
+sqlalchemy_searchable provides `full text search`_ capabilities for SQLAlchemy_ models. Currently it only supports PostgreSQL_.
 
 
 .. toctree::

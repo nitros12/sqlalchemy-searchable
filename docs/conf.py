@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# SQLAlchemy-Searchable documentation build configuration file, created by
+# sqlalchemy_searchable documentation build configuration file, created by
 # sphinx-quickstart on Fri Jan 11 14:55:47 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -41,7 +41,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'SQLAlchemy-Searchable'
+project = u'sqlalchemy_searchable'
 copyright = u'2013, Konsta Vesterinen'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -165,7 +165,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SQLAlchemy-Searchabledoc'
+htmlhelp_basename = 'sqlalchemy_searchabledoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,7 +184,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'SQLAlchemy-Searchable.tex', u'SQLAlchemy-Searchable Documentation',
+  ('index', 'sqlalchemy_searchable.tex', u'sqlalchemy_searchable Documentation',
    u'Konsta Vesterinen', 'manual'),
 ]
 
@@ -214,7 +214,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sqlalchemy-searchable', u'SQLAlchemy-Searchable Documentation',
+    ('index', 'sqlalchemy-searchable', u'sqlalchemy_searchable Documentation',
      [u'Konsta Vesterinen'], 1)
 ]
 
@@ -228,8 +228,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'SQLAlchemy-Searchable', u'SQLAlchemy-Searchable Documentation',
-   u'Konsta Vesterinen', 'SQLAlchemy-Searchable', 'One line description of project.',
+  ('index', 'sqlalchemy_searchable', u'sqlalchemy_searchable Documentation',
+   u'Konsta Vesterinen', 'sqlalchemy_searchable', 'One line description of project.',
    'Miscellaneous'),
 ]
 

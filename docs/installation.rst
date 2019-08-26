@@ -3,7 +3,7 @@ Installation
 
 ::
 
-    pip install SQLAlchemy-Searchable
+    pip install sqlalchemy_searchable
 
 
 Supported versions are python 2.7 and 3.3+.

@@ -99,9 +99,9 @@ if "%1" == "qthelp" (
 	echo.
 	echo.Build finished; now you can run "qcollectiongenerator" with the ^
 .qhcp project file in %BUILDDIR%/qthelp, like this:
-	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\SQLAlchemy-Searchable.qhcp
+	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\sqlalchemy_searchable.qhcp
 	echo.To view the help file:
-	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\SQLAlchemy-Searchable.ghc
+	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\sqlalchemy_searchable.ghc
 	goto end
 )
 

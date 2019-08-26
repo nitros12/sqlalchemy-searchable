@@ -1,4 +1,4 @@
-SQLAlchemy-Searchable
+sqlalchemy_searchable
 =====================
 
 |Build Status| |Version Status| |Downloads|
@@ -16,7 +16,7 @@ Resources
 
 .. |Build Status| image:: https://travis-ci.org/kvesteri/sqlalchemy-searchable.png?branch=master
    :target: https://travis-ci.org/kvesteri/sqlalchemy-searchable
-.. |Version Status| image:: https://img.shields.io/pypi/v/SQLAlchemy-Searchable.svg
-   :target: https://pypi.python.org/pypi/SQLAlchemy-Searchable/
-.. |Downloads| image:: https://img.shields.io/pypi/dm/SQLAlchemy-Searchable.svg
-   :target: https://pypi.python.org/pypi/SQLAlchemy-Searchable/
+.. |Version Status| image:: https://img.shields.io/pypi/v/sqlalchemy_searchable.svg
+   :target: https://pypi.python.org/pypi/sqlalchemy_searchable/
+.. |Downloads| image:: https://img.shields.io/pypi/dm/sqlalchemy_searchable.svg
+   :target: https://pypi.python.org/pypi/sqlalchemy_searchable/

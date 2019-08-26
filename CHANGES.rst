@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-Here you can see the full list of changes between each SQLAlchemy-Searchable release.
+Here you can see the full list of changes between each sqlalchemy_searchable release.
 
 
 1.0.3 (2018-02-22)

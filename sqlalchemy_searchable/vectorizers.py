@@ -38,7 +38,7 @@ model::
         content_translations = sa.Column(HSTORE)
 
 
-Now SQLAlchemy-Searchable would create the following search trigger for this
+Now sqlalchemy_searchable would create the following search trigger for this
 model (with default configuration)
 
 .. code-block:: sql

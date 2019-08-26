@@ -1,5 +1,5 @@
 """
-SQLAlchemy-Searchable
+sqlalchemy_searchable
 ---------------------
 
 Provides fulltext search capabilities for declarative SQLAlchemy models.
@@ -36,7 +36,7 @@ extras_require = {
 }
 
 setup(
-    name='SQLAlchemy-Searchable',
+    name='sqlalchemy_searchable',
     version=get_version(),
     url='https://github.com/kvesteri/sqlalchemy-searchable',
     license='BSD',

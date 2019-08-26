@@ -1,7 +1,7 @@
 Configuration
 =============
 
-SQLAlchemy-Searchable provides a number of customization options for the automatically generated
+sqlalchemy_searchable provides a number of customization options for the automatically generated
 search trigger, index and search_vector columns.
 
 Global configuration options
